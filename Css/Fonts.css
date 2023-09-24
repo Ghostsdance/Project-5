@@ -1,1 +1,17 @@
+/* تعريف خطوط مخصصة باستخدام @font-face */
 
+/* خط PaisleyCaps */
+@font-face {
+  font-family: 'PaisleyCaps'; /* اسم الخط */
+  src: url('/Fonts/PaisleyCaps.ttf') format('opentype'); /* مسار الملف وتنسيقه */
+
+  /* يمكنك تحديد خيارات إضافية إذا كان لديك، مثل الوزن والانماط */
+  font-weight: bold; /* سمك الخط (عريض) */
+  font-style: italic; /* نمط الخط (مائل) */
+}
+
+/* خط Chocolate Bar Demo */
+@font-face {
+  font-family: 'Chocolate Bar Demo'; /* اسم الخط */
+  src: url('/Fonts/Chocolate Bar Demo.otf') format('opentype'); /* مسار الملف وتنسيقه */
+}
