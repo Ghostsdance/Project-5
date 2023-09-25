@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Nested Positioning Example</title>
+  <link rel="stylesheet" href="Postion.css">
+</head>
+<body>
+  <div class="static-box">
+    <p>
+      This is a static box.
+    </p>
+
+
+  </div>
+  <div class="relative-parent">
+    <div class="relative-box">
+      <p>
+        This is a relative box inside a relative parent.
+      </p>
+      <div class="fixed-box">
+        <p>
+          This is a fixed box inside a relative box.
+        </p>
+        <div class="absolute-box">
+          <p>
+            This is an absolute box inside a fixed box.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
