@@ -3,34 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Nested Positioning Example</title>
+  <title>مثال على تضمين الأوضاع المتداخلة في CSS</title>
   <link rel="stylesheet" href="Postion.css">
 </head>
 <body>
+  <!-- بداية عنصر بالفئة static-box -->
   <div class="static-box">
+    <!-- بداية فقرة داخل العنصر بالفئة static-box -->
     <p>
-      This is a static box.
+      هذا هو صندوق ثابت.
     </p>
-
-
+    <!-- نهاية فقرة داخل العنصر بالفئة static-box -->
   </div>
+  <!-- نهاية عنصر بالفئة static-box -->
+
+  <!-- بداية عنصر بالفئة relative-parent -->
   <div class="relative-parent">
+    <!-- بداية عنصر بالفئة relative-box داخل عنصر relative-parent -->
     <div class="relative-box">
+      <!-- بداية فقرة داخل العنصر بالفئة relative-box -->
       <p>
-        This is a relative box inside a relative parent.
+        هذا صندوق نسبي داخل عنصر نسبي.
       </p>
-      <div class="fixed-box">
-        <p>
-          This is a fixed box inside a relative box.
-        </p>
-        <div class="absolute-box">
-          <p>
-            This is an absolute box inside a fixed box.
-          </p>
-        </div>
-      </div>
+      <!-- نهاية فقرة داخل العنصر بالفئة relative-box -->
     </div>
-
+    <!-- نهاية عنصر بالفئة relative-box -->
   </div>
+  <!-- نهاية عنصر بالفئة relative-parent -->
+
+  <!-- بداية عنصر بالفئة fixed-box -->
+  <div class="fixed-box">
+    <!-- بداية فقرة داخل العنصر بالفئة fixed-box -->
+    <p>
+      هذا صندوق ثابت.
+    </p>
+    <!-- نهاية فقرة داخل العنصر بالفئة fixed-box -->
+  </div>
+  <!-- نهاية عنصر بالفئة fixed-box -->
+
+  <!-- بداية عنصر بالفئة absolute-box -->
+  <div class="absolute-box">
+    <!-- بداية فقرة داخل العنصر بالفئة absolute-box -->
+    <p>
+      هذا صندوق مطلق.
+    </p>
+    <!-- نهاية فقرة داخل العنصر بالفئة absolute-box -->
+  </div>
+  <!-- نهاية عنصر بالفئة absolute-box -->
 </body>
 </html>
