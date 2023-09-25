@@ -1,0 +1,81 @@
+/* Static (ثابت) */
+.static-box {
+  position: static;
+  /* تحديد الوضع إلى ثابت */
+  border: 1px solid black;
+  /* إعداد حدود بسمك 1 بيكسل ولون أسود */
+  padding: 10px;
+  /* إعداد تباعد الحواف الداخلية */
+  background-color: lightgray;
+  /* لون الخلفية */
+  display: inline-block;
+  /* نوع العرض */
+}
+
+/* Relative Parent (نسبي) */
+.relative-parent {
+  position: relative;
+  /* تحديد الوضع إلى نسبي */
+  left: 20px;
+  /* تحديد التحريك إلى اليمين بمقدار 20 بيكسل */
+  top: 100px;
+  /* تحديد التحريك إلى الأسفل بمقدار 100 بيكسل */
+  background-color: lightblue;
+  /* لون الخلفية */
+  display: inline-block;
+  /* نوع العرض */
+}
+
+/* Relative Box (نسبي) */
+.relative-box {
+  position: relative;
+  /* تحديد الوضع إلى نسبي */
+  left: 20px;
+  /* تحديد التحريك إلى اليمين بمقدار 20 بيكسل */
+  top: 10px;
+  /* تحديد التحريك إلى الأسفل بمقدار 10 بيكسل */
+  display: inline-block;
+  /* نوع العرض */
+  border: 1px solid red;
+  /* إعداد حدود بسمك 1 بيكسل ولون أحمر */
+  padding: 10px;
+  /* إعداد تباعد الحواف الداخلية */
+  background-color: lightyellow;
+  /* لون الخلفية */
+}
+
+/* Fixed (ثابت مع العرض) */
+.fixed-box {
+  position: fixed;
+  /* تحديد الوضع إلى ثابت */
+  top: 250px;
+  /* تحديد الموقع الرأسي بمقدار 250 بيكسل من الأعلى */
+  right: 20px;
+  /* تحديد الموقع الأفقي بمقدار 20 بيكسل من اليمين */
+  background-color: lightcoral;
+  /* لون الخلفية */
+  color: white;
+  /* لون النص */
+  padding: 10px;
+  /* إعداد تباعد الحواف الداخلية */
+  display: inline-block;
+  /* نوع العرض */
+}
+
+/* Absolute (مطلق) */
+.absolute-box {
+  position: absolute;
+  /* تحديد الوضع إلى مطلق */
+  top: 500px;
+  /* تحديد الموقع الرأسي بمقدار 500 بيكسل من الأعلى */
+  left: 10px;
+  /* تحديد الموقع الأفقي بمقدار 10 بيكسل من اليسار */
+  border: 1px solid purple;
+  /* إعداد حدود بسمك 1 بيكسل ولون بنفسجي */
+  padding: 10px;
+  /* إعداد تباعد الحواف الداخلية */
+  display: inline-block;
+  /* نوع العرض */
+  background-color: lightgreen;
+  /* لون الخلفية */
+}
